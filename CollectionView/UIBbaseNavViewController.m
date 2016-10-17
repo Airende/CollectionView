@@ -1,18 +1,18 @@
 //
-//  baseNavViewController.m
+//  UIBbaseNavViewController.m
 //  CollectionView
 //
 //  Created by airende on 2016/10/17.
 //  Copyright © 2016年 airende. All rights reserved.
 //
 
-#import "baseNavViewController.h"
+#import "UIBbaseNavViewController.h"
 
-@interface baseNavViewController ()
+@interface UIBbaseNavViewController ()
 
 @end
 
-@implementation baseNavViewController
+@implementation UIBbaseNavViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

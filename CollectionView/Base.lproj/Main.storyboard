@@ -6,12 +6,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Base Nav View Controller-->
+        <!--Bbase Nav View Controller-->
         <scene sceneID="Njj-uC-eMw">
             <objects>
-                <navigationController id="bTr-IP-lV5" customClass="baseNavViewController" sceneMemberID="viewController">
+                <navigationController id="bTr-IP-lV5" customClass="UIBbaseNavViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="fIr-HY-h1t"/>
-                    <nil key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RZ5-lt-e3f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -96,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="-1018" y="377"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Bbase Nav View Controller-->
         <scene sceneID="gdI-uZ-sg7">
             <objects>
-                <navigationController id="FdN-1S-wQf" sceneMemberID="viewController">
+                <navigationController id="FdN-1S-wQf" customClass="UIBbaseNavViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="mostRecent" id="8i0-YS-InH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="p5S-Kj-CUk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

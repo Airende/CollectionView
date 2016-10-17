@@ -1,5 +1,5 @@
 //
-//  baseNavViewController.h
+//  UIBbaseNavViewController.h
 //  CollectionView
 //
 //  Created by airende on 2016/10/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface baseNavViewController : UINavigationController
+@interface UIBbaseNavViewController : UINavigationController
 
 @end

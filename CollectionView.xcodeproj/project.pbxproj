@@ -15,7 +15,6 @@
 		90804E8A1DB4620D002540E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90804E881DB4620D002540E9 /* LaunchScreen.storyboard */; };
 		90804E951DB4620D002540E9 /* CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90804E941DB4620D002540E9 /* CollectionViewTests.m */; };
 		90804EA01DB4620D002540E9 /* CollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90804E9F1DB4620D002540E9 /* CollectionViewUITests.m */; };
-		90804EB01DB464A3002540E9 /* baseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90804EAF1DB464A3002540E9 /* baseNavViewController.m */; };
 		90804EB31DB464E7002540E9 /* UIBaseTBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90804EB21DB464E7002540E9 /* UIBaseTBViewController.m */; };
 		90804EB71DB4663B002540E9 /* FristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90804EB61DB4663B002540E9 /* FristViewController.m */; };
 		90804EBA1DB4677E002540E9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90804EB91DB4677E002540E9 /* SecondViewController.m */; };
@@ -25,6 +24,7 @@
 		90804EC81DB4730C002540E9 /* CollectionHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90804EC61DB4730C002540E9 /* CollectionHeaderReusableView.xib */; };
 		90804ECC1DB47753002540E9 /* CollectionFooterReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90804ECA1DB47753002540E9 /* CollectionFooterReusableView.m */; };
 		90804ECD1DB47753002540E9 /* CollectionFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90804ECB1DB47753002540E9 /* CollectionFooterReusableView.xib */; };
+		90804ED21DB49880002540E9 /* UIBbaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90804ED11DB49880002540E9 /* UIBbaseNavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +61,6 @@
 		90804E9B1DB4620D002540E9 /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90804E9F1DB4620D002540E9 /* CollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewUITests.m; sourceTree = "<group>"; };
 		90804EA11DB4620D002540E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90804EAE1DB464A3002540E9 /* baseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseNavViewController.h; sourceTree = "<group>"; };
-		90804EAF1DB464A3002540E9 /* baseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseNavViewController.m; sourceTree = "<group>"; };
 		90804EB11DB464E7002540E9 /* UIBaseTBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBaseTBViewController.h; sourceTree = "<group>"; };
 		90804EB21DB464E7002540E9 /* UIBaseTBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBaseTBViewController.m; sourceTree = "<group>"; };
 		90804EB51DB4663B002540E9 /* FristViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristViewController.h; sourceTree = "<group>"; };
@@ -78,6 +76,9 @@
 		90804EC91DB47753002540E9 /* CollectionFooterReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionFooterReusableView.h; sourceTree = "<group>"; };
 		90804ECA1DB47753002540E9 /* CollectionFooterReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionFooterReusableView.m; sourceTree = "<group>"; };
 		90804ECB1DB47753002540E9 /* CollectionFooterReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionFooterReusableView.xib; sourceTree = "<group>"; };
+		90804ECF1DB4971A002540E9 /* 说明.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "说明.h"; sourceTree = "<group>"; };
+		90804ED01DB49880002540E9 /* UIBbaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBbaseNavViewController.h; sourceTree = "<group>"; };
+		90804ED11DB49880002540E9 /* UIBbaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBbaseNavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,10 +173,11 @@
 		90804EAD1DB4645A002540E9 /* baseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				90804EAE1DB464A3002540E9 /* baseNavViewController.h */,
-				90804EAF1DB464A3002540E9 /* baseNavViewController.m */,
+				90804ED01DB49880002540E9 /* UIBbaseNavViewController.h */,
+				90804ED11DB49880002540E9 /* UIBbaseNavViewController.m */,
 				90804EB11DB464E7002540E9 /* UIBaseTBViewController.h */,
 				90804EB21DB464E7002540E9 /* UIBaseTBViewController.m */,
+				90804ECF1DB4971A002540E9 /* 说明.h */,
 			);
 			name = baseViewController;
 			sourceTree = "<group>";
@@ -347,13 +349,13 @@
 			files = (
 				90804ECC1DB47753002540E9 /* CollectionFooterReusableView.m in Sources */,
 				90804E821DB4620D002540E9 /* ViewController.m in Sources */,
-				90804EB01DB464A3002540E9 /* baseNavViewController.m in Sources */,
 				90804EB31DB464E7002540E9 /* UIBaseTBViewController.m in Sources */,
 				90804EC21DB46C44002540E9 /* GeneralCollectionViewCell.m in Sources */,
 				90804EBA1DB4677E002540E9 /* SecondViewController.m in Sources */,
 				90804E7F1DB4620D002540E9 /* AppDelegate.m in Sources */,
 				90804E7C1DB4620D002540E9 /* main.m in Sources */,
 				90804EB71DB4663B002540E9 /* FristViewController.m in Sources */,
+				90804ED21DB49880002540E9 /* UIBbaseNavViewController.m in Sources */,
 				90804EC71DB4730C002540E9 /* CollectionHeaderReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
