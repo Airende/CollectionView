@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0166" translatesAutoresizingMaskIntoConstraints="NO" id="gRF-O8-Nmw"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ATL-K1-JD9">
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="XCR-wl-mTC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVG-nB-VC5">
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="KC6-bj-AeW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="gRF-O8-Nmw" secondAttribute="bottom" id="1Qj-Mr-M0Z"/>
+                <constraint firstAttribute="trailing" secondItem="ATL-K1-JD9" secondAttribute="trailing" id="8mb-KO-cMC"/>
+                <constraint firstItem="ATL-K1-JD9" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="9Py-ag-4qa"/>
+                <constraint firstAttribute="trailing" secondItem="gRF-O8-Nmw" secondAttribute="trailing" id="AR2-bB-KKd"/>
+                <constraint firstItem="gRF-O8-Nmw" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="GLD-Fn-fcA"/>
+                <constraint firstAttribute="trailing" secondItem="XVG-nB-VC5" secondAttribute="trailing" id="GZm-n7-E2S"/>
+                <constraint firstItem="gRF-O8-Nmw" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="NE7-az-SyL"/>
+                <constraint firstAttribute="bottom" secondItem="XVG-nB-VC5" secondAttribute="bottom" id="RHA-pH-Fbn"/>
+                <constraint firstItem="XVG-nB-VC5" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="UOA-St-vJZ"/>
+                <constraint firstItem="ATL-K1-JD9" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="pbw-uk-SMG"/>
+            </constraints>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="IMG_0166" width="593" height="800"/>
+    </resources>
+</document>
